@@ -931,3 +931,27 @@ section {
     padding: 15px; /* Corrected the padding */
   }
 }
+
+.support-btn {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: #ffffff; /* Clean white circle */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #2c2f3f; /* Dark grey icon default */
+    font-size: 36px;
+    text-decoration: none;
+    transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275); /* Bouncy transition */
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1); /* Soft shadow to give depth */
+    border: 1px solid #eef2f6;
+  }
+
+  .support-btn:hover {
+    transform: translateY(-8px); /* Lifts up on hover */
+    background: #149ddd; /* Your brand blue */
+    color: #ffffff; /* Icon turns white */
+    box-shadow: 0 15px 30px rgba(20, 157, 221, 0.4); /* Glowing blue shadow */
+    border-color: #149ddd;
+  }
